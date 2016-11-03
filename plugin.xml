@@ -34,6 +34,11 @@
         
         <header-file src="src/ios/AppAvailability.h" />
         <source-file src="src/ios/AppAvailability.m" />
+            
+        <config-file platform="ios" target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+            <string>twitter</string>
+            <string>fb-messenger</string>
+        </config-file>    
     </platform>
     
     <!-- Android -->
